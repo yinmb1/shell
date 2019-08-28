@@ -17,8 +17,8 @@ public class HelloWordController
     public String  helleHttp() {
         String json="json";
 
-        String string = HttpUtil.postJson("http://127.0.0.1:8002/lm/job/zljrLoanApplyJob", json);
+        String string = HttpUtil.postJson("http://127.0.0.1:8002/applyJob", json);
 
-        return "httpTest";
+        return string;
     }
 }
