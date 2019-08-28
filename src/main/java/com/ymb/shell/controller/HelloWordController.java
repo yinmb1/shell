@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWordController
 {
     @RequestMapping(value = "/httpTest", method = RequestMethod.POST)
-    public String  szsLoanStatusAndUpdateLoanPlans() {
+    public String  helleHttp() {
         String json="json";
 
         String string = HttpUtil.postJson("http://127.0.0.1:8002/lm/job/zljrLoanApplyJob", json);
